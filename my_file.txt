@@ -1,1 +1,14 @@
 This is the first file.
+This is a line added after Initial commit.
+
+This is a javascript snippet.
+
+(function () {
+  'use strict';
+  angular.module('myApp', []);
+  angular.module('myApp')
+    .controller('MainController', [MainController]);
+   function MainController() {
+      var vm = this;
+   };
+});
